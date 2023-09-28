@@ -73,6 +73,7 @@ defmodule Absinthe.Mixfile do
 
   defp deps do
     [
+      {:new_relic_agent, "1.27.4"},
       {:nimble_parsec, "~> 1.2.2 or ~> 1.3.0"},
       {:telemetry, "~> 1.0 or ~> 0.4"},
       {:dataloader, "~> 1.0.0 or ~> 2.0", optional: true},
